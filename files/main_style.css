@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Quattrocento:400,700?1498935818); @import url(//fonts.googleapis.com/css?family=Quattrocento+Sans:400,700,400italic,700italic?1498935818); ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input { margin: 0; padding: 0; }
+@import url(//fonts.googleapis.com/css?family=Quattrocento:400,700?1502770497); @import url(//fonts.googleapis.com/css?family=Quattrocento+Sans:400,700,400italic,700italic?1502770497); ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input { margin: 0; padding: 0; }
  html { height: 100%; }
  body { width: 100%; height: 100%; background: #ffffff; color: #3e3e3e; font-family: 'Quattrocento Sans', sans-serif; font-size: 16px; font-weight: 400; line-height: 25px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
  a { color: #b9b9b9; text-decoration: none; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease; }
@@ -45,7 +45,7 @@
  #wsite-menus .wsite-menu-arrow:before { display: block; color: #b9b9b9; content: '\203A'; font-family: 'Quattrocento Sans', sans-serif; font-size: 24px; font-weight: normal; line-height: 11px; }
  .wsite-social { vertical-align: middle; }
  .wsite-social .wsite-social-item { width: 28px; height: 30px; margin-right: 5px; }
- .wsite-background, .wsite-header-section { position: relative; background: url(theme/images/default-bg.jpg?1498935818) no-repeat; background-size: cover; background-position: center center; }
+ .wsite-background, .wsite-header-section { position: relative; background: url(theme/images/default-bg.jpg?1502770497) no-repeat; background-size: cover; background-position: center center; }
  .banner-wrap { position: relative; width: 100%; max-width: 1115px; margin: 20px auto 0; }
  .wsite-header-section:before { position: absolute; top: 0; left: 0; width: 100%; min-height: 100%; height: inherit; background: rgba(0,0,0,0.2); content: ' '; }
  .wsite-section-bg-color:before { display: none; }
@@ -88,7 +88,7 @@
  .wsite-form-radio-container { margin-bottom: 10px; }
  .wsite-form-input, .wsite-search-element-input { margin-bottom: 10px; padding: 10px !important; background: #fafafa; color: #444444; border: 1px solid #b9b9b9; border-radius: 1px; font-family: 'Quattrocento Sans', sans-serif; font-size: 14px; font-weight: 400; line-height: normal; -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease; }
  .wsite-form-input:focus, .wsite-form-input--focus, .wsite-search-element-input:focus { border: 1px solid #777777; }
- .form-select, .wsite-form-field select, .wsite-com-product-option-groups select { height: 40px; padding: 10px; background: #fafafa url(theme/images/select-dropdown.png?1498935818) 97% center no-repeat; color: #333333; border: 1px solid #b9b9b9; border-radius: 1px; font-family: 'Quattrocento Sans', sans-serif; font-size: 14px; font-weight: 400; line-height: normal; }
+ .form-select, .wsite-form-field select, .wsite-com-product-option-groups select { height: 40px; padding: 10px; background: #fafafa url(theme/images/select-dropdown.png?1502770497) 97% center no-repeat; color: #333333; border: 1px solid #b9b9b9; border-radius: 1px; font-family: 'Quattrocento Sans', sans-serif; font-size: 14px; font-weight: 400; line-height: normal; }
  .form-select:focus, .wsite-form-field select:focus, .wsite-com-product-option-groups select:focus { border: 1px solid #777777; }
  .formlist, .wsite-editor .formlist { min-height: inherit; }
  .wsite-search-element-submit, .wsite-editor .wsite-search-element-submit { top: 12px; margin-top: 0; }
@@ -150,7 +150,7 @@
  .wsite-com-checkout-section .wsite-form-field select, .wsite-com-checkout-section .wsite-form-field input, .wsite-com-checkout-section .wsite-form-field .select2-container { height: 40px; }
  .wsite-com-checkout-section .wsite-form-field input[type="radio"] { display: inline-block; width: 16px; height: 16px; margin: 0; }
  @media screen and (max-width: 992px) {
- .container { max-width: 768px; }
+ .container { max-width: 768px; overflow-wrap: break-word; word-wrap: break-word; -ms-word-break: break-all; word-break: break-word; -ms-hyphens: auto; -moz-hyphens: auto; -webkit-hyphens: auto; hyphens: auto; }
  .content-wrap .container { padding: 20px; }
  .footer-wrap .wsite-footer { width: 100%; padding: 40px 20px 20px; box-sizing: border-box; }
  .footer-wrap td.wsite-multicol-col { margin-bottom: 25px !important; }
